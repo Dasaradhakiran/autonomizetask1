@@ -1,0 +1,117 @@
+.todo-item-li-elem {
+    list-style-type: none;
+    background-color: #5052a1;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 10%;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+}
+
+.todo-name {
+    font-size: 16px;
+    color: #ffffff;
+}
+.todo-item-btn {
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+    margin-left: 25px;
+    border: 0px;
+}
+.todo-item-update-icon {
+    color: #ffffff;
+    font-size: 15px;
+}
+.todo-item-delete-icon {
+    color: #f50713;
+    font-size: 13px;
+}
+.todo-update-input-elem {
+    width: 30%;
+    height: 90%;
+    border: 0px;
+    outline: none;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 14px;
+}
+.todo-update-btn {
+    background-color: #f50713;
+    border: 0px;
+    cursor: pointer;
+    outline: none;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    font-size: 13px;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 500px) {
+    .todo-name {
+        font-size: 12px;
+    }
+    .todo-item-li-elem {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .todo-item-btn {
+        margin-left: 10px;
+    }
+    .todo-item-delete-icon {
+        font-size: 9px;
+    }
+    .todo-item-update-icon {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 800px) and (min-width:1000px) {
+    .todo-name {
+        font-size: 25px;
+    }
+
+    .todo-item-delete-icon {
+        font-size: 20px;
+    }
+    .todo-item-update-icon{
+        font-size: 23px;
+    }
+    .todo-update-input-elem {
+        font-size: 30px;
+    }
+    .todo-update-btn {
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width:1500px) {
+    .todo-name {
+        font-size: 40px;
+    }
+    .todo-item-li-elem {
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 20px;
+        margin-bottom: 40px;
+    }
+    .todo-item-delete-icon {
+        font-size: 25px;
+    }
+    .todo-item-update-icon{
+        font-size: 28px;
+    }
+    .todo-update-input-elem {
+        font-size: 40px;
+    }
+    .todo-update-btn {
+        font-size: 30px;
+    }
+}
